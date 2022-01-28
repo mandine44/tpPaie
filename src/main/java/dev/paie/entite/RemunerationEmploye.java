@@ -1,5 +1,7 @@
 package dev.paie.entite;
 
+import java.util.Optional;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -61,6 +63,18 @@ public class RemunerationEmploye {
 	}
 	public void setId(Integer id) {
 		this.id = id;
+	}
+	public void setEntreprise(Optional<Entreprise> e) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setGrade(Optional<Grade> g) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setProfil(ProfilRemuneration profilRemuneration2) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	
