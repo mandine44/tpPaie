@@ -30,6 +30,12 @@ public class Cotisation {
 	
 	private Boolean imposable = false;
 	
+	
+	
+	@Override
+	public String toString() {
+		return "Cotisation [id=" + id + ", code=" + code + ", libelle=" + libelle + "]";
+	}
 	public String getCode() {
 		return code;
 	}
