@@ -35,6 +35,8 @@ public class InsererBulletin implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		BulletinSalaire bulletinSalaire = new BulletinSalaire();
 		
+		//Ajouter  saisie de periode et prime exceptionnelle
+		
 		System.out.println("Quel est l'id de la remuneration employe?");
 		int n= scanner.nextInt();
 		Optional<RemunerationEmploye> r = remunerationRepository.findById(n);
